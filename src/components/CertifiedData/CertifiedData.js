@@ -5,9 +5,9 @@ export default function CertifiedData() {
   return (
     <div className={styles.sectionBg}>
       <div
-        class={`card ${styles.cardPosition} containerWidth w-100 border-black rounded-0 border-2`}
+        className={`card ${styles.cardPosition} containerWidth border-black rounded-0 border-2`}
       >
-        <div class="card-body p-sm-5 p-3">
+        <div className="card-body p-sm-5 p-3">
           <p className="fs-4">
             SOC2 Certified{' '}
             <img
@@ -27,21 +27,27 @@ export default function CertifiedData() {
             with your compliance requirements. For detailed information, view
             our full compliance policy.
           </p>
-          <button
-            type="button"
-            className="btn btn-info me-3 fs-5 rounded-pill px-4 fw-semibold"
-          >
-            Search Secure Cloud
-          </button>
-          <span className="ms-4 fw-semibold fs-5">
-            Trust Center <IoArrowForwardCircle className="fs-4" />
-          </span>
-          <span className="ms-4 fw-semibold fs-5">
-            About Vast Enterprise <IoArrowForwardCircle className="fs-4" />
-          </span>
-          <span className="ms-4 fw-semibold fs-5">
-            Contact Sales <IoArrowForwardCircle className="fs-4" />
-          </span>
+          <div className="d-flex flex-wrap align-items-center mt-3 gap-3">
+            <button
+              type="button"
+              className="btn btn-info fs-5 rounded-pill px-4 fw-semibold"
+            >
+              Search Secure Cloud
+            </button>
+
+            <span className="fw-semibold fs-5 d-flex align-items-center">
+              Trust Center <IoArrowForwardCircle className="fs-4 ms-2" />
+            </span>
+
+            <span className="fw-semibold fs-5 d-flex align-items-center">
+              About Vast Enterprise{' '}
+              <IoArrowForwardCircle className="fs-4 ms-2" />
+            </span>
+
+            <span className="fw-semibold fs-5 d-flex align-items-center">
+              Contact Sales <IoArrowForwardCircle className="fs-4 ms-2" />
+            </span>
+          </div>
         </div>
       </div>
     </div>

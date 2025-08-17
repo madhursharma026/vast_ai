@@ -129,20 +129,20 @@ export default function DevelopersData() {
         </div>
       </div>
 
-      <h1 className={`text-center text-white mt-5 ${styles.heading}`}>
-        Need Support?
-      </h1>
-      <h4 className="text-center text-white" style={{ fontFamily: 'PT Serif' }}>
-        Chat with our 24/7 live support team in our product console.
-      </h4>
-      <h6 className="ms-4 fw-semibold text-center text-white fs-5">
-        Chat Now <IoArrowForwardCircle className="fs-4" />
-      </h6>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+      <div className="text-center text-white px-3">
+        <h1 className={`mt-5 ${styles.heading}`}>Need Support?</h1>
+        <h4 style={{ fontFamily: 'PT Serif' }}>
+          Chat with our 24/7 live support team in our product console.
+        </h4>
+        <h6 className="ms-4 fw-semibold fs-5">
+          Chat Now <IoArrowForwardCircle className="fs-4" />
+        </h6>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
   )
 }

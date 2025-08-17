@@ -1,16 +1,18 @@
 .sectionBg {
     background-image: url('https://vast.ai/_next/image?url=%2Fhome%2F_home_bg.webp&w=1920&q=90');
     background-position: center;
+    background-size: cover;
     min-height: 100vh;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: "PT Serif";
+    padding: 2rem 0;
+    /* extra spacing for small screens */
 }
 
 .cardPosition {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .heading {

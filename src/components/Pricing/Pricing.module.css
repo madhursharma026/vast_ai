@@ -5,3 +5,37 @@
 .card {
     max-width: 480px;
 }
+
+.tableWrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.tableWrapper table {
+    min-width: 600px;
+    border-collapse: collapse;
+}
+
+.tableWrapper::-webkit-scrollbar {
+    height: 6px;
+}
+
+.tableWrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.tableWrapper::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+.tableWrapper::-webkit-scrollbar-thumb:hover {
+    background: #999;
+}
+
+.tableWrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #c1c1c1 #f1f1f1;
+}

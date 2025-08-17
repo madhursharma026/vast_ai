@@ -58,64 +58,66 @@ export default function Pricing() {
           </div>
 
           <div className="col-lg-6 offset-lg-1 mt-lg-0 mt-4">
-            <table className="table text-center">
-              <thead>
-                <tr>
-                  <th scope="col" className="d-md-table-cell d-none">
-                    <span className="fs-5">GPU Type</span>
-                  </th>
-                  <th scope="col">
-                    <span className="fs-5">Vast.ai</span>
-                  </th>
-                  <th scope="col">
-                    <span className="fs-5">AWS</span>
-                  </th>
-                  <th scope="col">
-                    <span className="fs-5">CoreWeave</span>
-                  </th>
-                  <th scope="col">
-                    <span className="fs-5">Lamda</span>
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="table-group-divider fw-semibold border-2 border-black">
-                <tr>
-                  <td className="d-md-table-cell d-none">RTX 5090</td>
-                  <td className="text-primary">$0.37/hr</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                </tr>
-                <tr>
-                  <td className="d-md-table-cell d-none">H200</td>
-                  <td className="text-primary">$2.59/hr</td>
-                  <td>$10.60/hr</td>
-                  <td>$6.31hr</td>
-                  <td>--</td>
-                </tr>
-                <tr>
-                  <td className="d-md-table-cell d-none">H100</td>
-                  <td className="text-primary">$1.65/hr</td>
-                  <td>$12.30/hr</td>
-                  <td>$6.16/hr</td>
-                  <td>$2.29/hr</td>
-                </tr>
-                <tr>
-                  <td className="d-md-table-cell d-none">RTX 4090</td>
-                  <td className="text-primary">$0.39/hr</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                </tr>
-                <tr>
-                  <td className="d-md-table-cell d-none">RTX 3090</td>
-                  <td className="text-primary">$0.14/hr</td>
-                  <td>--</td>
-                  <td>--</td>
-                  <td>--</td>
-                </tr>
-              </tbody>
-            </table>
+            <div className={styles.tableWrapper}>
+              <table className="table text-center align-middle">
+                <thead>
+                  <tr>
+                    <th scope="col" className="d-md-table-cell d-none">
+                      <span className="fs-5">GPU Type</span>
+                    </th>
+                    <th scope="col">
+                      <span className="fs-5">Vast.ai</span>
+                    </th>
+                    <th scope="col">
+                      <span className="fs-5">AWS</span>
+                    </th>
+                    <th scope="col">
+                      <span className="fs-5">CoreWeave</span>
+                    </th>
+                    <th scope="col">
+                      <span className="fs-5">Lamda</span>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="table-group-divider fw-semibold border-2 border-black">
+                  <tr>
+                    <td className="d-md-table-cell d-none">RTX 5090</td>
+                    <td className="text-primary">$0.37/hr</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td className="d-md-table-cell d-none">H200</td>
+                    <td className="text-primary">$2.59/hr</td>
+                    <td>$10.60/hr</td>
+                    <td>$6.31/hr</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td className="d-md-table-cell d-none">H100</td>
+                    <td className="text-primary">$1.65/hr</td>
+                    <td>$12.30/hr</td>
+                    <td>$6.16/hr</td>
+                    <td>$2.29/hr</td>
+                  </tr>
+                  <tr>
+                    <td className="d-md-table-cell d-none">RTX 4090</td>
+                    <td className="text-primary">$0.39/hr</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                  </tr>
+                  <tr>
+                    <td className="d-md-table-cell d-none">RTX 3090</td>
+                    <td className="text-primary">$0.14/hr</td>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
 
@@ -173,4 +175,3 @@ export default function Pricing() {
     </>
   )
 }
-

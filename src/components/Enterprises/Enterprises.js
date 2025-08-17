@@ -13,15 +13,18 @@ export default function Enterprises() {
           Join thousands of developers and enterprises running AI workloads on
           Vast.
         </p>
-        <button
-          type="button"
-          className="btn btn-info me-3 fs-5 rounded-pill px-4 fw-semibold"
-        >
-          Search Secure Cloud
-        </button>
-        <span className="ms-4 fw-semibold fs-5">
-          Case Studies <IoArrowForwardCircle className="fs-4" />
-        </span>
+        <div className="d-flex flex-wrap align-items-center mt-3 gap-3">
+          <button
+            type="button"
+            className="btn btn-info fs-5 rounded-pill px-4 fw-semibold"
+          >
+            Search Secure Cloud
+          </button>
+
+          <span className="fw-semibold fs-5 d-flex align-items-center">
+            Case Studies <IoArrowForwardCircle className="fs-4 ms-2" />
+          </span>
+        </div>
       </div>
     </div>
   )
