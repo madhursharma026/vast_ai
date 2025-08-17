@@ -1,5 +1,5 @@
 import TestimonialSlider from '../TestimonialSlider/TestimonialSlider'
-import styles from './pricing.module.css'
+import styles from './Pricing.module.css'
 
 export default function Pricing() {
   const testimonials = [
@@ -173,3 +173,4 @@ export default function Pricing() {
     </>
   )
 }
+
