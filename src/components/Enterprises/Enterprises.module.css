@@ -1,0 +1,30 @@
+.sectionBg {
+    background-image: url("https://vast.ai/_next/image?url=%2Fhome%2F_home_bg_2.webp&w=1920&q=90");
+    background-position: center;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    font-family: "PT Serif";
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+.cardPosition {
+    position: relative;
+    z-index: 2;
+}
+
+.heading {
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: clamp(40px, 7vw, 70px);
+}

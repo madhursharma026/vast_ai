@@ -1,0 +1,17 @@
+.cardPosition {
+    position: relative;
+    margin: 4rem auto;
+    transform: none;
+}
+
+
+.sectionBg {
+    position: relative;
+    background: #1A1A1A;
+}
+
+.heading {
+    font-weight: 400;
+    line-height: 69px;
+    font-size: clamp(35px, 5vw, 48px);
+}

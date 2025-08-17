@@ -1,0 +1,7 @@
+.sectionBorder {
+    border-bottom: 2px solid black;
+}
+
+.card {
+    max-width: 480px;
+}

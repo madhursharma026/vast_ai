@@ -1,0 +1,42 @@
+.testimonialCard {
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+    height: 100%;
+    min-height: 280px;
+}
+
+.slick-slide>div {
+    height: 100%;
+    display: flex;
+}
+
+.slick-list {
+    display: flex;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slickArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    cursor: pointer;
+    font-size: 24px;
+    color: #000000;
+}
+
+.nextArrow {
+    right: -30px;
+}
+
+.prevArrow {
+    left: -30px;
+}
