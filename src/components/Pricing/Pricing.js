@@ -86,35 +86,45 @@ export default function Pricing() {
                 </thead>
                 <tbody className="table-group-divider fw-semibold border-2 border-black">
                   <tr>
-                    <td className="d-md-table-cell d-none">RTX 5090</td>
+                    <td className="d-md-table-cell d-none text-decoration-underline">
+                      RTX 5090
+                    </td>
                     <td className="text-primary">$0.37/hr</td>
                     <td>--</td>
                     <td>--</td>
                     <td>--</td>
                   </tr>
                   <tr>
-                    <td className="d-md-table-cell d-none">H200</td>
+                    <td className="d-md-table-cell d-none text-decoration-underline">
+                      H200
+                    </td>
                     <td className="text-primary">$2.59/hr</td>
                     <td>$10.60/hr</td>
                     <td>$6.31/hr</td>
                     <td>--</td>
                   </tr>
                   <tr>
-                    <td className="d-md-table-cell d-none">H100</td>
+                    <td className="d-md-table-cell d-none text-decoration-underline">
+                      H100
+                    </td>
                     <td className="text-primary">$1.65/hr</td>
                     <td>$12.30/hr</td>
                     <td>$6.16/hr</td>
                     <td>$2.29/hr</td>
                   </tr>
                   <tr>
-                    <td className="d-md-table-cell d-none">RTX 4090</td>
+                    <td className="d-md-table-cell d-none text-decoration-underline">
+                      RTX 4090
+                    </td>
                     <td className="text-primary">$0.39/hr</td>
                     <td>--</td>
                     <td>--</td>
                     <td>--</td>
                   </tr>
                   <tr>
-                    <td className="d-md-table-cell d-none">RTX 3090</td>
+                    <td className="d-md-table-cell d-none text-decoration-underline">
+                      RTX 3090
+                    </td>
                     <td className="text-primary">$0.14/hr</td>
                     <td>--</td>
                     <td>--</td>

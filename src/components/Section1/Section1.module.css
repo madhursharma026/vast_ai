@@ -1,0 +1,48 @@
+.section1Bg {
+    background-color: #1a1a1a;
+    background: radial-gradient(ellipse 49% 32% at 50% 99%,
+            #ff2e00 0%,
+            #d0491b 7%,
+            #5d8e61 21%,
+            #00c69a 33%,
+            #0ea6b8 40%,
+            #1d87d7 49%,
+            #2871ed 57%,
+            #2e63fa 65%,
+            #315fff 73%,
+            #305dfa 76%,
+            #2f59ec 80%,
+            #2c52d6 83%,
+            #2949b6 87%,
+            #253c8d 91%,
+            #202d5b 95%,
+            #1a1c22 99%,
+            #1a1a1a 100%);
+    background-repeat: no-repeat;
+    animation: gradientPulseBottom 10s linear infinite;
+}
+
+.section1Title {
+    font-size: clamp(2.5rem, 4.5vw, 5.5rem);
+    color: white;
+}
+
+.section1Text {
+    max-width: 900px;
+    font-size: clamp(1.125rem, 2vw, 1.25rem);
+    line-height: 1.6;
+    color: white;
+}
+
+/* Gradient animation */
+@keyframes gradientPulseBottom {
+
+    0%,
+    100% {
+        background-position: bottom center;
+    }
+
+    50% {
+        background-position: top center;
+    }
+}

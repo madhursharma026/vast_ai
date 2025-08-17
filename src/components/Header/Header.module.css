@@ -1,0 +1,47 @@
+/* Header base */
+.header {
+    background-color: transparent;
+    padding: 1.5rem 0;
+    transition: background-color 0.3s ease, padding 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Inter', sans-serif;
+    will-change: background-color, padding, box-shadow;
+    z-index: 999;
+}
+
+/* Header when scrolled */
+.scrolled {
+    background-color: #1a1a1a;
+    padding: 0.7rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* Navbar links */
+.link {
+    color: rgba(255, 255, 255, 0.85) !important;
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    transition: color 0.2s ease, font-size 0.3s ease, transform 0.2s ease;
+    position: relative;
+}
+
+.link:hover {
+    color: #00c69a !important;
+}
+
+/* Shrink links on scroll */
+.scrolled .link {
+    font-size: 0.95rem;
+}
+
+/* Contact button */
+.contact {
+    color: #00c69a !important;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact:hover {
+    color: white !important;
+}
