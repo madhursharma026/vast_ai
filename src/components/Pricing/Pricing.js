@@ -1,5 +1,10 @@
-import TestimonialSlider from '../TestimonialSlider/TestimonialSlider'
+// import TestimonialSlider from '../TestimonialSlider/TestimonialSlider'
+import dynamic from 'next/dynamic'
 import styles from './Pricing.module.css'
+const TestimonialSlider = dynamic(
+  () => import('../TestimonialSlider/TestimonialSlider'),
+  { ssr: false } // only render on client
+)
 
 export default function Pricing() {
   const testimonials = [

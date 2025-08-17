@@ -59,20 +59,20 @@ export default function DeployData() {
 
       <div className="row mt-3">
         <div className="col-md-4 col-sm-6 px-4">
-          <p className="mt-3 fs-3">AI Agents</p>
-          <p className="mt-3 fs-3">AI Text Generation</p>
-          <p className="mt-3 fs-3">Batch Data Processing</p>
-          <p className="mt-3 fs-3">Virtual Computing </p>
+          <p className="mt-3 fs-5">AI Agents</p>
+          <p className="mt-3 fs-5">AI Text Generation</p>
+          <p className="mt-3 fs-5">Batch Data Processing</p>
+          <p className="mt-3 fs-5">Virtual Computing </p>
         </div>
         <div className="col-md-4 col-sm-6 px-4">
-          <p className="mt-3 fs-3">AI Fine Tuning</p>
-          <p className="mt-3 fs-3">AI/ML Frameworks</p>
-          <p className="mt-3 fs-3">GPU Programming</p>
+          <p className="mt-3 fs-5">AI Fine Tuning</p>
+          <p className="mt-3 fs-5">AI/ML Frameworks</p>
+          <p className="mt-3 fs-5">GPU Programming</p>
         </div>
         <div className="col-md-4 col-sm-6 px-4">
-          <p className="mt-3 fs-3">AI Image & Video Generation</p>
-          <p className="mt-3 fs-3">Audio-to-Text</p>
-          <p className="mt-3 fs-3">Graphics Rendering</p>
+          <p className="mt-3 fs-5">AI Image & Video Generation</p>
+          <p className="mt-3 fs-5">Audio-to-Text</p>
+          <p className="mt-3 fs-5">Graphics Rendering</p>
         </div>
       </div>
     </div>
